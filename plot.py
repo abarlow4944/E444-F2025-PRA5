@@ -14,4 +14,6 @@ plt.savefig('latency_plot.png')
 plt.show()
 
 average_performance = df.groupby('test_case')['latency_seconds'].mean()
-print(f"Average performance: {average_performance} seconds")
+average_performance_total = df['latency_seconds'].mean()
+print(average_performance)
+print(f"Average total latency: {average_performance_total}")

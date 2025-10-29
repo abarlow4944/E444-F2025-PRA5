@@ -3,3 +3,5 @@ scikit-learn
 gunicorn
 Werkzeug
 numpy
+boto3
+requests
